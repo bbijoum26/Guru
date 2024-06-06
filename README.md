@@ -1,4 +1,3 @@
-echo "
 # GURU 게임 추천 시스템
 
 ## 프로젝트 개요
@@ -51,4 +50,3 @@ GURU 프로젝트는 다음과 같은 데이터 출처를 사용하였습니다:
 ## 사용된 아이콘 및 데이터 출처
 - **아이콘 출처**: Freepik, Pixel perfect, rizal2109
 - **데이터 출처**: RAWG, IGDB
-" > README.md
