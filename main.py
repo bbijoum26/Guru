@@ -28,7 +28,7 @@ def filter_by_platforms(df, platform_filter):
     if platform_filter == "":
         return df
     platforms_filter_list = platform_filter.split(",")
-    return df[df["platforms"].apply(lambda x: all(platform in x.split(",") for platform in platforms_filter_list))]
+    return df[df["platforms"].apply(lambda x: any(platform in x.split(",") for platform in platforms_filter_list))]
 
 def filter_by_age(birth_year, df):
     current_year = datetime.datetime.now().year
